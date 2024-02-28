@@ -1,0 +1,121 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+ html {
+     scroll-behavior: smooth;
+}
+/**-- ini untuk bagian body --**/
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+    
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+/**-- ini untuk logo pojok kiri atas tulisan genshin impact --**/
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'impact', sans-serif;
+    color: #1E90FF;
+}
+
+.menu {
+    float: right;
+}
+/**-- ini untuk navbar bagian atas --**/
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #000000;
+    z-index: 1;
+    border-bottom:8px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #1E90FF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 0px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+/**--untuk navbar bagian atas end --**/
+}
+/**--ini untuk home kolom --**/
+.kolom {
+    text-align: 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #F0FFFF;
+    font-family: "poppins", sans-serif;
+}
+
+.kolom .deskripsi {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'poppins' sans-serif;
+    color: #F0FFFF;
+}
+
+h1 {
+    font-family: 'poppins' sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #F0FFFF;
+    width: 100%;
+    line-height: 50px;
+/**--ini untuk home kolom end--**/
+}
+/**-- ini untuk link box warna biru --**/
+a.boxbiru {
+    background: #1E90FF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.boxbiru:hover {
+    background: #ADD8E6;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+/**--untuk link box warna biru end--**/
+}
